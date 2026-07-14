@@ -1,4 +1,145 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>商品リンク一覧</title></head>
-<body><p>準備中です</p></body>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本当に使い続けているもの｜厳選アイテム</title>
+    <meta name="description" content="動画で紹介した中から、本当にリピートし続けているアイテムだけを厳選。健康・仕事・人間関係・お金の4ジャンルで暮らしを変えたものをまとめています。">
+    <!-- Google Fonts -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 動的背景スライダー -->
+    <div class="bg-slider">
+        <div class="bg-slide" style="background-image: url('assets/bg1.png'); animation-delay: 0s;"></div>
+        <div class="bg-slide" style="background-image: url('assets/bg4.png'); animation-delay: 10s;"></div>
+        <div class="bg-slide" style="background-image: url('assets/bg2.png'); animation-delay: 20s;"></div>
+        <div class="bg-slide" style="background-image: url('assets/bg3.png'); animation-delay: 30s;"></div>
+        <div class="bg-slide" style="background-image: url('assets/bg5.png'); animation-delay: 40s;"></div>
+    </div>
+
+    <!-- ヒーロー（トップのキャッチコピー） -->
+    <header class="hero">
+        <div class="hero-inner">
+            <div class="hero-avatar">
+                <img src="assets/profile.png" alt="Curator Profile">
+            </div>
+            <p class="hero-eyecatch">厳選アイテム集</p>
+            <h1 class="hero-title">動画で紹介した中から、<br><em>本当に使い続けているもの</em>だけ。</h1>
+            <p class="hero-desc">100個以上試して「これは手放せない」と思えたアイテムを厳選。<br>ランキング形式で、正直にレビューしています。</p>
+
+            <!-- 信頼バッジ -->
+            <div class="trust-row">
+                <span class="trust-chip">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    全部自腹で購入
+                </span>
+                <span class="trust-chip">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    忖度なしレビュー
+                </span>
+                <span class="trust-chip">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    愛用品のみ掲載
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- カテゴリ選択グリッド -->
+    <main class="main">
+        <div class="container">
+            <div class="hub-grid" id="hubGrid">
+                <!-- 健康・美容 -->
+                <a href="./health/" class="hub-card hub-card--health">
+                    <span class="hub-count" id="count-health">-</span>
+                    <div class="hub-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <div class="hub-label">健康・美容</div>
+                    <div class="hub-desc">サプリ・食品・睡眠<br>ボディケア</div>
+                    <span class="hub-arrow">見てみる <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </a>
+                <!-- 仕事・スキル -->
+                <a href="./ambition/" class="hub-card hub-card--ambition">
+                    <span class="hub-count" id="count-ambition">-</span>
+                    <div class="hub-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M23 6l-9.5 9.5-5-5L1 18"/><path stroke-linecap="round" stroke-linejoin="round" d="M17 6h6v6"/></svg>
+                    </div>
+                    <div class="hub-label">仕事・スキル</div>
+                    <div class="hub-desc">生産性・ガジェット<br>スキルアップ</div>
+                    <span class="hub-arrow">見てみる <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </a>
+                <!-- 恋愛・人間関係 -->
+                <a href="./relation/" class="hub-card hub-card--relation">
+                    <span class="hub-count" id="count-relation">-</span>
+                    <div class="hub-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path stroke-linecap="round" stroke-linejoin="round" d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <div class="hub-label">恋愛・人間関係</div>
+                    <div class="hub-desc">コミュニケーション<br>メンタルケア</div>
+                    <span class="hub-arrow">見てみる <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </a>
+                <!-- お金・節約 -->
+                <a href="./money/" class="hub-card hub-card--money">
+                    <span class="hub-count" id="count-money">-</span>
+                    <div class="hub-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path stroke-linecap="round" d="M6 12h.01M18 12h.01"/></svg>
+                    </div>
+                    <div class="hub-label">お金・節約</div>
+                    <div class="hub-desc">投資・家計管理<br>マネー教育</div>
+                    <span class="hub-arrow">見てみる <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </a>
+            </div>
+
+            <p class="hub-note">
+                気になるジャンルから、アイテムを探してみてください。
+            </p>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-note">※ 当ページのリンクにはアフィリエイトリンクが含まれています（PR）</p>
+            <p class="footer-note">掲載商品はすべて自腹で購入し、実際に使用したうえで掲載しています</p>
+            <p class="footer-copy">&copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- カテゴリ別の商品数を表示するスクリプト -->
+    <script>
+        // products.json を読み込んでカテゴリ別の件数をバッジに表示
+        (async () => {
+            try {
+                const res = await fetch('./data/products.json');
+                const products = await res.json();
+                // LP表示対象のみカウント（ピン留め or 7日以内）
+                const now = new Date();
+                const visible = products.filter(p => {
+                    if (p.pinned) return true;
+                    if (!p.created_at) return false;
+                    const diff = (now - new Date(p.created_at)) / (1000 * 60 * 60 * 24);
+                    return diff <= 7;
+                });
+                // カテゴリ別にカウント
+                const counts = {};
+                visible.forEach(p => {
+                    counts[p.harm_category] = (counts[p.harm_category] || 0) + 1;
+                });
+                // バッジを更新
+                ['health', 'ambition', 'relation', 'money'].forEach(cat => {
+                    const el = document.getElementById('count-' + cat);
+                    const c = counts[cat] || 0;
+                    if (el) el.textContent = c > 0 ? c + '件' : '準備中';
+                });
+            } catch (e) {
+                console.error('商品数の取得に失敗:', e);
+            }
+        })();
+    </script>
+</body>
 </html>

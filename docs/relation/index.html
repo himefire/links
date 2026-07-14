@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>恋愛・人間関係｜厳選アイテム</title>
+    <meta name="description" content="コミュニケーション改善、メンタルケア、自分磨きなど、人間関係を変えてくれたアイテムを厳選。">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* カテゴリ固有のアクセントカラー */
+        .hero-eyecatch {
+            color: #ec4899;
+            background: rgba(236, 72, 153, 0.08);
+            border-color: rgba(236, 72, 153, 0.2);
+        }
+        .trust-chip svg { color: #ec4899; }
+    </style>
+</head>
+<body>
+    <div class="bg-slider">
+        <div class="bg-slide" style="background-image: url('../assets/bg1.png'); animation-delay: 0s;"></div>
+        <div class="bg-slide" style="background-image: url('../assets/bg4.png'); animation-delay: 10s;"></div>
+        <div class="bg-slide" style="background-image: url('../assets/bg2.png'); animation-delay: 20s;"></div>
+        <div class="bg-slide" style="background-image: url('../assets/bg3.png'); animation-delay: 30s;"></div>
+        <div class="bg-slide" style="background-image: url('../assets/bg5.png'); animation-delay: 40s;"></div>
+    </div>
+
+    <header class="hero hero--relation">
+        <div class="hero-inner">
+            <a href="../" class="hero-back">← カテゴリ一覧に戻る</a>
+            <p class="hero-eyecatch">恋愛・人間関係</p>
+            <h1 class="hero-title">人との<em>距離</em>が変わると、<br>人生が変わる。</h1>
+            <p class="hero-desc">コミュニケーション・メンタルケア・自分磨きなど、<br><strong>人間関係をラクにしてくれた</strong>アイテムだけ。</p>
+            <!-- 信頼バッジ -->
+            <div class="trust-row">
+                <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>全部自腹で購入</span>
+                <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>忖度なしレビュー</span>
+                <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>愛用品のみ掲載</span>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="アイテムを探す..." autocomplete="off">
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <section class="latest-section" id="pinnedSection">
+                <h2 class="section-title">いつものおすすめ</h2>
+                <p class="section-desc">長く使い続けて、本当に手放せないと思えたものだけ。</p>
+                <div class="latest-grid" id="pinnedGrid"></div>
+            </section>
+            <section class="products-section" id="recentSection" style="display:none;">
+                <h2 class="section-title">最近の動画で紹介</h2>
+                <p class="section-desc">直近7日間の動画で取り上げたアイテム。</p>
+                <div class="products-grid" id="recentGrid"></div>
+            </section>
+            <section class="products-section" id="allSection" style="display:none;">
+                <h2 class="section-title" id="productsTitle">すべてのアイテム</h2>
+                <div class="products-grid" id="productsGrid"></div>
+                <div class="empty-state" id="emptyState" style="display:none;">
+                    <p>該当する商品が見つかりません</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-note">※ 当ページのリンクにはアフィリエイトリンクが含まれています（PR）</p>
+            <p class="footer-note">掲載商品はすべて自腹で購入し、実際に使用したうえで掲載しています</p>
+            <p class="footer-copy">&copy; 2026</p>
+        </div>
+    </footer>
+
+    <script>window.HARM_CATEGORY = 'relation';</script>
+    <script src="../app.js"></script>
+</body>
+</html>
