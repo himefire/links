@@ -13,7 +13,7 @@
 // =========================================================================
 
 // ▼▼▼ ここに GA4 測定ID を貼る（例: 'G-ABCD1234XY'）。空のままでも動作する ▼▼▼
-const GA4_MEASUREMENT_ID = '';
+const GA4_MEASUREMENT_ID = 'G-QNNKK8QJTH'; // GA4プロパティ「アフィリLP」
 // ▲▲▲
 
 (function () {
