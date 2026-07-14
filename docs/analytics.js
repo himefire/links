@@ -16,6 +16,28 @@
 const GA4_MEASUREMENT_ID = 'G-QNNKK8QJTH'; // GA4プロパティ「アフィリLP」
 // ▲▲▲
 
+// --- メルマガ登録セクションの制御 ---
+// SUBSTACK_URL に LP専用Substackの登録URLを設定すると、登録ボタンが有効化される。
+// 未設定（空）の間は、登録セクションを丸ごと非表示にする（個人アカウント流出・
+// デッドリンクを防ぐ）。
+// ▼▼▼ LP専用Substackを作成したら、その登録URLをここに貼る ▼▼▼
+const SUBSTACK_URL = '';
+// ▲▲▲
+(function () {
+    document.addEventListener('DOMContentLoaded', function () {
+        const optinSection = document.querySelector('.optin');
+        const optinCta = document.querySelector('.optin-cta');
+        if (!optinSection) return;
+        if (/^https?:\/\//.test(SUBSTACK_URL)) {
+            if (optinCta) optinCta.setAttribute('href', SUBSTACK_URL);
+            optinSection.style.display = '';
+        } else {
+            // URL未設定: セクションごと隠す
+            optinSection.style.display = 'none';
+        }
+    });
+})();
+
 (function () {
     const hasGA4 = /^G-[A-Z0-9]+$/i.test(GA4_MEASUREMENT_ID);
 
