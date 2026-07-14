@@ -160,9 +160,12 @@ function isWithin7Days(dateStr) {
     return diffDays <= 7;
 }
 
-// --- LP表示対象の商品を取得（ピン留め or 7日以内） ---
+// --- LP表示対象の商品を取得 ---
+// 以前は「ピン留め or 7日以内」に絞っていたが、商品が7日で全消滅し在庫が枯れる
+// 弊害が大きかったため、全商品を表示する方針に変更。
+// 「新しさ」は7日以内の NEW リボン（isWithin7Days）で表現する。
 function getVisibleProducts() {
-    return products.filter(p => p.pinned || isWithin7Days(p.created_at));
+    return products.slice();
 }
 
 // --- 描画 ---
@@ -209,14 +212,17 @@ function renderRanked() {
         return new Date(b.created_at) - new Date(a.created_at);
     });
 
-    // 商品ゼロのカテゴリ: 準備中の空状態を出す
+    // 商品ゼロのカテゴリ: 準備中の空状態＋他カテゴリへの誘導（行き止まり回避）
     if (visible.length === 0) {
         topSection.style.display = 'block';
         setSectionHeading(topSection, 'COMING SOON', '');
         topGrid.innerHTML = `
             <div class="empty-state">
-                このカテゴリは現在準備中です。<br>
-                動画で紹介したアイテムから順次追加していきます。
+                <p style="margin-bottom:18px;">このカテゴリは現在準備中です。<br>まずは充実している「健康・美容」から見てみませんか？</p>
+                <div class="empty-cta-group">
+                    <a class="card-cta btn-amazon" href="../health/">健康・美容のおすすめを見る ${SVG_ARROW}</a>
+                    <a class="card-cta btn-default" href="../">カテゴリ一覧に戻る ${SVG_ARROW}</a>
+                </div>
             </div>`;
         if (restSection) restSection.style.display = 'none';
         return;
@@ -354,6 +360,23 @@ function generateProductCardHtml(p, rank = 0) {
         metaHtml = `<div class="card-meta">${metaParts.join('')}</div>`;
     }
 
+    // --- 社会的証明: 星評価＋レビュー件数（★実データがある時のみ表示。捏造しない） ---
+    // data例: "rating": 4.4, "review_count": 2317, "rating_source": "Amazon"
+    let ratingHtml = '';
+    if (typeof p.rating === 'number' && p.rating > 0) {
+        const r = Math.max(0, Math.min(5, p.rating));
+        const full = Math.floor(r);
+        const half = r - full >= 0.5;
+        let stars = '';
+        for (let i = 0; i < 5; i++) {
+            const cls = i < full ? 'star-full' : (i === full && half ? 'star-half' : 'star-empty');
+            stars += `<span class="star ${cls}">★</span>`;
+        }
+        const count = p.review_count ? `<span class="rating-count">${p.review_count.toLocaleString()}件</span>` : '';
+        const src = p.rating_source ? `<span class="rating-src">${escapeHtml(p.rating_source)}</span>` : '';
+        ratingHtml = `<div class="card-rating"><span class="stars">${stars}</span><span class="rating-num">${r.toFixed(1)}</span>${count}${src}</div>`;
+    }
+
     // --- 推しポイント（ベネフィット先行で購買意欲を先に立ち上げる） ---
     let benefitsHtml = '';
     if (p.benefits && p.benefits.length > 0) {
@@ -375,42 +398,61 @@ function generateProductCardHtml(p, rank = 0) {
         `;
     }
 
-    // --- 使ってみた本音（運営者アバター付き吹き出し = 信頼の演出） ---
+    // --- 正直なひとこと（短所/向かない人）: 比較検討層の信頼を得る（データがある時のみ） ---
+    // data例: "demerit": "値段は高め。安さ重視なら他の選択肢も。"
+    let demeritHtml = '';
+    if (p.demerit) {
+        demeritHtml = `
+            <div class="card-demerit">
+                <span class="demerit-label">正直なところ</span>
+                <span class="demerit-text">${escapeHtml(p.demerit)}</span>
+            </div>
+        `;
+    }
+
+    // --- コメント吹き出し（運営者アバター付き = 信頼の演出） ---
+    // one_comment: 運営者が実際に使った本音レビュー →「使ってみた本音」
+    // pick_reason: 使用体験を伴わない編集部の推薦理由 →「編集部の推しポイント」
+    //   ※ステマ規制（景表法）対応: 使っていない商品に個人の使用体験を騙らない
     let commentHtml = '';
-    if (p.one_comment) {
+    const commentText = p.one_comment || p.pick_reason;
+    if (commentText) {
+        const commentLabel = p.one_comment ? '使ってみた本音' : '編集部の推しポイント';
         const avatarPath = FIXED_CATEGORY ? '../assets/profile.png' : './assets/profile.png';
         commentHtml = `
             <div class="card-comment">
                 <span class="comment-avatar"><img src="${avatarPath}" alt="運営者" loading="lazy"></span>
                 <div class="comment-bubble" style="--accent:${color}">
-                    <span class="comment-label">使ってみた本音</span>
-                    <span class="comment-text">${escapeHtml(p.one_comment)}</span>
+                    <span class="comment-label">${commentLabel}</span>
+                    <span class="comment-text">${escapeHtml(commentText)}</span>
                 </div>
             </div>
         `;
     }
 
     // --- CTAボタン群 ---
+    // data-* 属性は analytics.js が商品別クリック計測に使う（どの商品のどのASPが押されたか）
+    const dataAttrs = (asp) => `data-product="${escapeHtml(bannerName)}" data-category="${p.harm_category || ''}" data-asp="${asp}"`;
     let buttonsHtml = '';
     if (p.links) {
         if (p.links.amazon) {
-            buttonsHtml += `<a class="card-cta btn-amazon" href="${p.links.amazon}" target="_blank" rel="noopener">Amazonで見る ${SVG_ARROW}</a>`;
+            buttonsHtml += `<a class="card-cta btn-amazon" ${dataAttrs('amazon')} href="${p.links.amazon}" target="_blank" rel="noopener sponsored">Amazonで見る ${SVG_ARROW}</a>`;
         }
         if (p.links.rakuten) {
-            buttonsHtml += `<a class="card-cta btn-rakuten" href="${p.links.rakuten}" target="_blank" rel="noopener">楽天市場で見る ${SVG_ARROW}</a>`;
+            buttonsHtml += `<a class="card-cta btn-rakuten" ${dataAttrs('rakuten')} href="${p.links.rakuten}" target="_blank" rel="noopener sponsored">楽天市場で見る ${SVG_ARROW}</a>`;
         }
         if (p.links.yahoo) {
-            buttonsHtml += `<a class="card-cta btn-yahoo" href="${p.links.yahoo}" target="_blank" rel="noopener">Yahoo!で見る ${SVG_ARROW}</a>`;
+            buttonsHtml += `<a class="card-cta btn-yahoo" ${dataAttrs('yahoo')} href="${p.links.yahoo}" target="_blank" rel="noopener sponsored">Yahoo!で見る ${SVG_ARROW}</a>`;
         }
         if (p.links.brain) {
-            buttonsHtml += `<a class="card-cta btn-brain" href="${p.links.brain}" target="_blank" rel="noopener">Brainで詳細を見る ${SVG_ARROW}</a>`;
+            buttonsHtml += `<a class="card-cta btn-brain" ${dataAttrs('brain')} href="${p.links.brain}" target="_blank" rel="noopener sponsored">Brainで詳細を見る ${SVG_ARROW}</a>`;
         }
         if (p.links.a8) {
-            buttonsHtml += `<a class="card-cta btn-a8" href="${p.links.a8}" target="_blank" rel="noopener">公式サイトで詳細を見る ${SVG_ARROW}</a>`;
+            buttonsHtml += `<a class="card-cta btn-a8" ${dataAttrs('a8')} href="${p.links.a8}" target="_blank" rel="noopener sponsored">公式サイトで詳細を見る ${SVG_ARROW}</a>`;
         }
     }
     if (!buttonsHtml) {
-        buttonsHtml = `<a class="card-cta btn-default" href="${url}" target="_blank" rel="noopener">商品詳細を見る ${SVG_ARROW}</a>`;
+        buttonsHtml = `<a class="card-cta btn-default" ${dataAttrs('other')} href="${url}" target="_blank" rel="noopener sponsored">商品詳細を見る ${SVG_ARROW}</a>`;
     }
 
     // --- リボン（NEW / おすすめ / カテゴリ名） ---
@@ -440,9 +482,11 @@ function generateProductCardHtml(p, rank = 0) {
             <div class="card-content">
                 ${showTitle ? `<h3 class="card-title">${escapeHtml(displayName)}</h3>` : ''}
                 ${subtitleHtml}
+                ${ratingHtml}
                 ${metaHtml}
                 ${benefitsHtml}
                 ${painHtml}
+                ${demeritHtml}
                 ${commentHtml}
                 <div class="card-cta-group">
                     ${buttonsHtml}

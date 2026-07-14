@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://himefire.github.io/links/sitemap.xml
