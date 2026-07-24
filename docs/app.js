@@ -14,6 +14,16 @@ let searchQuery = '';      // 現在の検索クエリ
 // --- window.HARM_CATEGORY が設定されていればカテゴリ固定モード ---
 const FIXED_CATEGORY = window.HARM_CATEGORY || null;
 
+// --- ピン等から来た人の「目当ての商品」 ---
+// ピンのリンクに元々入っている utm_campaign（=商品ID）を流用する。
+// 新パラメータを増やさないので、投稿済みピンにも遡って効く。?p= も別名として受ける。
+const HIGHLIGHT_ID = (() => {
+    try {
+        const q = new URLSearchParams(location.search);
+        return q.get('p') || q.get('utm_campaign') || null;
+    } catch { return null; }
+})();
+
 // --- カテゴリの表示名マッピング ---
 const CATEGORY_LABELS = {
     health: '健康・美容',
@@ -207,10 +217,15 @@ function renderRanked() {
     if (!topSection || !topGrid) return;
 
     // 表示対象: ピン留め優先 → 新しい順
-    const visible = [...getVisibleProducts()].sort((a, b) => {
+    let visible = [...getVisibleProducts()].sort((a, b) => {
         if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
         return new Date(b.created_at) - new Date(a.created_at);
     });
+
+    // ピン経由の目当て商品を専用セクションで最上部に（一覧からは除いて重複を防ぐ）
+    const highlight = HIGHLIGHT_ID ? visible.find(p => p.id === HIGHLIGHT_ID) : null;
+    renderHighlight(highlight);
+    if (highlight) visible = visible.filter(p => p.id !== highlight.id);
 
     // 商品ゼロのカテゴリ: 準備中の空状態＋他カテゴリへの誘導（行き止まり回避）
     if (visible.length === 0) {
@@ -241,10 +256,73 @@ function renderRanked() {
         } else {
             restSection.style.display = 'block';
             setSectionHeading(restSection, 'そのほかの愛用アイテム', '順位はつけていませんが、どれも実際に使い続けているものだけです。');
-            restGrid.innerHTML = rest.map(p => generateProductCardHtml(p, 0)).join('');
+            // NEW(7日以内)はフルカードのまま（動画から来た人の目当て商品の受け皿）。
+            // それ以外はコンパクト行にしてページ全長を圧縮。タップでフルカードに展開。
+            const fresh = rest.filter(p => isWithin7Days(p.created_at));
+            const older = rest.filter(p => !isWithin7Days(p.created_at));
+            restGrid.innerHTML =
+                fresh.map(p => generateProductCardHtml(p, 0)).join('') +
+                (older.length > 0 ? `<div class="compact-list">${older.map(p => generateCompactRowHtml(p)).join('')}</div>` : '');
         }
     }
 }
+
+// --- ピン経由の目当て商品セクション（動的生成・TOP3の上） ---
+function renderHighlight(p) {
+    let sec = document.getElementById('highlightSection');
+    if (!p) { if (sec) sec.style.display = 'none'; return; }
+    if (!sec) {
+        const topSection = document.getElementById('pinnedSection');
+        if (!topSection) return;
+        sec = document.createElement('section');
+        sec.id = 'highlightSection';
+        sec.className = 'latest-section';
+        sec.innerHTML = '<h2 class="section-title"></h2><p class="section-desc"></p><div class="latest-grid" id="highlightGrid"></div>';
+        topSection.parentNode.insertBefore(sec, topSection);
+    }
+    sec.style.display = 'block';
+    setSectionHeading(sec, 'ご覧のアイテム', 'ご覧いただいた投稿で紹介しているのはこちらです。');
+    const grid = sec.querySelector('#highlightGrid');
+    if (grid) grid.innerHTML = generateProductCardHtml(p, 0);
+}
+
+// --- コンパクト行（タップでフルカードに展開） ---
+function generateCompactRowHtml(p) {
+    const displayName = p.short_name || p.display_name || p.name;
+    const thumb = p.image_url
+        ? `<img src="${p.image_url}" alt="${escapeHtml(displayName)}" loading="lazy">`
+        : `<span class="compact-noimg">${escapeHtml(String(displayName).slice(0, 1))}</span>`;
+    let ratingHtml = '';
+    // フルカードと同じ基準: レビュー3件未満は星を出さない
+    if (typeof p.rating === 'number' && p.rating > 0 && (p.review_count || 0) >= 3) {
+        const count = p.review_count ? `(${p.review_count.toLocaleString()})` : '';
+        ratingHtml = `<span class="compact-rating">★ ${p.rating.toFixed(1)}${count}</span>`;
+    }
+    const priceHtml = p.price ? `<span class="compact-price">&yen;${p.price.toLocaleString()}</span>` : '';
+    return `
+        <button class="compact-row" data-pid="${escapeHtml(p.id)}" type="button">
+            <span class="compact-thumb">${thumb}</span>
+            <span class="compact-info">
+                <span class="compact-name">${escapeHtml(displayName)}</span>
+                <span class="compact-meta">${ratingHtml}${priceHtml}<span class="compact-pr">PR</span></span>
+            </span>
+            <span class="compact-open">詳しく ${SVG_CHEVRON}</span>
+        </button>`;
+}
+
+// --- コンパクト行タップ→フルカード展開（委譲。再描画にも耐える） ---
+document.addEventListener('click', (e) => {
+    const row = e.target.closest && e.target.closest('.compact-row');
+    if (!row) return;
+    const p = products.find(x => x.id === row.dataset.pid);
+    if (!p) return;
+    const wrap = document.createElement('div');
+    wrap.innerHTML = generateProductCardHtml(p, 0);
+    const card = wrap.firstElementChild;
+    if (!card) return;
+    card.classList.add('in'); // リビール待ちにせず即表示
+    row.replaceWith(card);
+});
 
 // --- セクションの見出し・説明文をJSから書き換えるヘルパー ---
 function setSectionHeading(section, title, desc) {
@@ -363,7 +441,8 @@ function generateProductCardHtml(p, rank = 0) {
     // --- 社会的証明: 星評価＋レビュー件数（★実データがある時のみ表示。捏造しない） ---
     // data例: "rating": 4.4, "review_count": 2317, "rating_source": "Amazon"
     let ratingHtml = '';
-    if (typeof p.rating === 'number' && p.rating > 0) {
+    // レビュー3件未満は表示しない（1件の★1.0等はノイズであり判断材料にならないため）
+    if (typeof p.rating === 'number' && p.rating > 0 && (p.review_count || 0) >= 3) {
         const r = Math.max(0, Math.min(5, p.rating));
         const full = Math.floor(r);
         const half = r - full >= 0.5;

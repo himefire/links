@@ -511,3 +511,56 @@ ul { list-style: none; }
     .hub-grid { grid-template-columns: 1fr; }
     body { font-size: 14px; }
 }
+
+/* --- コンパクト商品行（4位以下・8日以上経過の商品） --- */
+.compact-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--hairline);
+    margin-top: 8px;
+}
+.compact-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 14px 4px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--hairline);
+    cursor: pointer;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+}
+.compact-row:hover { background: rgba(0, 0, 0, 0.02); }
+.compact-thumb {
+    width: 56px;
+    height: 56px;
+    flex: none;
+    background: #fff;
+    border: 1px solid var(--hairline);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.compact-thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.compact-noimg { font-size: 18px; color: var(--ink-soft); }
+.compact-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.compact-name {
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.compact-meta { display: flex; gap: 10px; align-items: center; font-size: 12px; color: var(--ink-soft); }
+.compact-pr { font-size: 10px; letter-spacing: 0.08em; border: 1px solid var(--hairline); padding: 1px 5px; }
+.compact-open { flex: none; font-size: 12px; color: var(--ink-soft); letter-spacing: 0.06em; display: flex; align-items: center; gap: 2px; }
+.compact-open .toggle-arrow { width: 14px; height: 14px; }
+
+/* --- ピン経由の目当て商品（最上部ハイライト） --- */
+#highlightSection .premium-card { outline: 2px solid var(--ink); outline-offset: -2px; }
