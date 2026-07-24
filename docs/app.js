@@ -471,12 +471,18 @@ function generateProductCardHtml(p, rank = 0) {
         ? `<span class="rank-medal rank-${rank}"><span class="rank-no">${rank}</span><span class="rank-label">BEST</span></span>`
         : '';
 
+    // --- 商品ビジュアル: 実画像があれば表示（楽天APIから取得）、無ければ従来の商品名バナー ---
+    const visualBody = p.image_url
+        ? `<img class="visual-img" src="${p.image_url}" alt="${escapeHtml(bannerName)}" loading="lazy">
+           <span class="visual-name">${escapeHtml(bannerName)}</span>`
+        : `<span class="visual-name">${escapeHtml(bannerName)}</span>`;
+
     return `
         <article class="premium-card reveal">
             <div class="card-visual" style="--c1:${c1};--c2:${c2}">
                 ${ribbonHtml}
                 ${medalHtml}
-                <span class="visual-name">${escapeHtml(bannerName)}</span>
+                ${visualBody}
                 <span class="card-pr">PR</span>
             </div>
             <div class="card-content">

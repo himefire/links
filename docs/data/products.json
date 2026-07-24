@@ -49,7 +49,11 @@
     "one_comment": "家事しながら音楽を聴けて、子供の声も聞こえる。もうカナル型には戻れません。",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-13T02:47:58.674Z"
+    "created_at": "2026-04-13T02:47:58.674Z",
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/akkyone/cabinet/04/shokz_oprenrun.jpg?_ex=600x600",
+    "rating": 4.64,
+    "review_count": 11,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_013",
@@ -71,8 +75,7 @@
     ],
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-13T11:27:35.992Z",
-    "pick_reason": "お金の不安は知識で減らせる。まず全体像をつかむ入口として選びやすい。"
+    "created_at": "2026-04-13T11:27:35.992Z"
   },
   {
     "id": "prod_014",
@@ -94,8 +97,7 @@
     ],
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-13T14:41:43.976Z",
-    "pick_reason": "かがむ動作がつらい人ほど効く。玄関のプチストレスを毎日ゼロにできる。"
+    "created_at": "2026-04-13T14:41:43.976Z"
   },
   {
     "id": "prod_015",
@@ -120,7 +122,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-14T00:59:18.218Z",
-    "pick_reason": "履くたびの「かがむ」が消える。忙しい朝に地味だけど効く一足。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/laqunstore/cabinet/townhiker/imgrc0115801938.jpg?_ex=600x600",
+    "rating": 4.8,
+    "review_count": 5,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_016",
@@ -145,7 +150,7 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-14T06:37:57.619Z",
-    "pick_reason": "歯科専用キシリトール100%。ケアを我慢じゃなく習慣に変えられるのが強み。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/glomarket/cabinet/07178412/07764022/imgb0c2ymwj2v0.jpg?_ex=600x600"
   },
   {
     "id": "prod_017",
@@ -167,8 +172,7 @@
     ],
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-16T02:02:59.528Z",
-    "pick_reason": "特許取得の整体枕。寝るだけで首・肩を預けられるのが最大の価値。"
+    "created_at": "2026-04-16T02:02:59.528Z"
   },
   {
     "id": "prod_018",
@@ -193,7 +197,7 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-16T02:12:58.041Z",
-    "pick_reason": "健康と病気の「あいだ」を考えさせてくれる一冊。長く効く読み物。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3318/9784065423318_1_2.jpg?_ex=600x600"
   },
   {
     "id": "prod_019",
@@ -202,8 +206,7 @@
     "price": 2480,
     "harm_category": "health",
     "links": {
-      "amazon": "https://amzn.to/4u0e3XT",
-      "rakuten": "https://a.r10.to/hgUnzn"
+      "amazon": "https://amzn.to/4u0e3XT"
     },
     "pain_points": [
       "健康的だと思って食べていたナッツで逆に太ってしまった",
@@ -217,8 +220,7 @@
     ],
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-17T22:57:48.321Z",
-    "pick_reason": "現役医師監修＋個包装。つい食べ過ぎを物理的に防げるのが賢い。"
+    "created_at": "2026-04-17T22:57:48.321Z"
   },
   {
     "id": "prod_020",
@@ -243,7 +245,10 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-17T23:05:23.340Z",
-    "pick_reason": "柔道整復師監修。運動時の「あと少しの不安」を薄手で支えてくれる。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hanaelife/cabinet/10658659/101-150/z134-000.jpg?_ex=600x600",
+    "rating": 4.09,
+    "review_count": 11,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_021",
@@ -252,8 +257,7 @@
     "price": 7480,
     "harm_category": "health",
     "links": {
-      "amazon": "https://amzn.to/3Qfo9pf",
-      "rakuten": "https://a.r10.to/hP5H3T"
+      "amazon": "https://amzn.to/3Qfo9pf"
     },
     "pain_points": [
       "安物のフライパンのコーティング剥がれが気になる",
@@ -268,7 +272,7 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T00:34:44.330Z",
-    "pick_reason": "育てて一生モノ。買い替えの無駄を断てるのが長い目で得。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/inasuteppu/cabinet/12417077/40120175_4.jpg?_ex=600x600"
   },
   {
     "id": "prod_022",
@@ -293,7 +297,10 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T00:43:37.323Z",
-    "pick_reason": "鶏むねがしっとり別物に。ヘルシー自炊のハードルを一気に下げる。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lican/cabinet/12290852/tlq01.jpg?_ex=600x600",
+    "rating": 4.29,
+    "review_count": 14,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_023",
@@ -318,7 +325,10 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T01:39:03.003Z",
-    "pick_reason": "湿度を「数値」で管理。カビ・乾燥対策を感覚頼みにしないための一台。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/switchbot/cabinet/09377790/c02/amazon/imgrc0082574109.jpg?_ex=600x600",
+    "rating": 4.66,
+    "review_count": 674,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_024",
@@ -343,7 +353,10 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T03:05:28.295Z",
-    "pick_reason": "静音設計で夜でも気兼ねなく。続けやすさが結局いちばん効く。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tcconlineshop/cabinet/08713206/compass1690191513.jpg?_ex=600x600",
+    "rating": 4.75,
+    "review_count": 308,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_025",
@@ -368,7 +381,10 @@
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T03:27:30.772Z",
-    "pick_reason": "パンプスに忍ばせるだけ。見た目を変えずに足裏を支えられる。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/flore-shop/cabinet/11297006/250623_01.jpg?_ex=600x600",
+    "rating": 3.98,
+    "review_count": 810,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_026",
@@ -393,7 +409,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-21T02:26:20.988Z",
-    "pick_reason": "睡眠と活動を可視化。「なんとなく不調」を数字で捉える起点になる。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakutenmobile-store/cabinet/product/apple-watch-series11/zkst2520pk/01.jpg?_ex=600x600",
+    "rating": 5,
+    "review_count": 1,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_027",
@@ -418,7 +437,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-27T02:58:02.820Z",
-    "pick_reason": "これ1台で重さ可変。省スペースで本格的な負荷を積める。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/motions/cabinet/md/md-24-40_tum_1.jpg?_ex=600x600",
+    "rating": 4.7,
+    "review_count": 766,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_028",
@@ -443,7 +465,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-30T07:18:33.641Z",
-    "pick_reason": "着けるだけで背筋が起きる。デスクワークの猫背対策に手軽。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lorelife/cabinet/beauty/098/imgrc0098093426.jpg?_ex=600x600",
+    "rating": 4.19,
+    "review_count": 1959,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_029",
@@ -468,7 +493,7 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-30T07:33:21.655Z",
-    "pick_reason": "日照不足を補う一粒。冬のどんより気分対策に、まず試したい定番。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/binokurashibin/cabinet/shohin/gocln-he/4580581540172-2_t.jpg?_ex=600x600"
   },
   {
     "id": "prod_030",
@@ -493,7 +518,7 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-07T01:29:09.808Z",
-    "pick_reason": "当てるだけで音波が汚れを落とす。手磨きの「みがき残し」を減らせる。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hikaritv/cabinet/plala/201/01253/2010125368_k.jpg?_ex=600x600"
   },
   {
     "id": "prod_031",
@@ -518,7 +543,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-07T01:37:37.567Z",
-    "pick_reason": "薄い目元に特化した保湿設計。年齢が出やすい場所を重点ケアできる。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/creidea-coms/cabinet/cosme/09681884/4589795140222.jpg?_ex=600x600",
+    "rating": 4.86,
+    "review_count": 21,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_032",
@@ -543,7 +571,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-07T01:46:32.148Z",
-    "pick_reason": "殺菌・防臭でニオイの元から。背中ニキビ・加齢臭が気になる人に。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/import-garden/cabinet/null/giftbox/cart/nu-afw_fbw_01.jpg?_ex=600x600",
+    "rating": 1,
+    "review_count": 1,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_033",
@@ -568,7 +599,10 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-14T03:12:59.145Z",
-    "pick_reason": "バリア機能を守りつつ毛穴汚れオフ。刺激を抑えたい人の定番洗顔。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rosette-shop/cabinet/itempage/sabon_sm_1ps/sabon_dfgh.jpg?_ex=600x600",
+    "rating": 4.6,
+    "review_count": 201,
+    "rating_source": "楽天市場"
   },
   {
     "id": "prod_034",
@@ -593,6 +627,32 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-14T03:16:24.258Z",
-    "pick_reason": "濃密泡で優しく洗い上げる。メンズスキンケア入門にちょうどいい。"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/angfa/cabinet/2025/11697898/12000941/imgrc0147666310.jpg?_ex=600x600",
+    "rating": 4.47,
+    "review_count": 32,
+    "rating_source": "楽天市場"
+  },
+  {
+    "id": "prod_035",
+    "name": "[SKIN & LAB 公式] スキンアンドラブ レチノール",
+    "short_name": "[SKIN & LAB 公式] スキンアンドラブ レチノール",
+    "price": 2280,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/B0BTYDHYF1?tag=himefireai-22"
+    },
+    "pain_points": [
+      "レチノールのA反応で肌が赤く皮むけして痛い",
+      "高濃度を塗りすぎて逆に肌トラブルが悪化した",
+      "攻めのスキンケアで肌バリアが壊れて乾燥する"
+    ],
+    "benefits": [
+      "肌の状態に合わせた正しい保湿ケアでバリア機能をサポート",
+      "レチノールと併用しやすいセラミド補給で健やかな肌へ導く",
+      "刺激を抑えつつモチモチとしたツヤ肌を目指せる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-07-24T04:17:51.170Z"
   }
 ]
