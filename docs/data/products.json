@@ -675,12 +675,37 @@
       "寝ている間に潤いを閉じ込め翌朝もみずみずしい肌を保つ",
       "睡眠中の乾燥トラブルを防ぎ健やかな肌と髪へ導く"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-07-25T01:11:12.845Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aeonstyleonline/cabinet/beauty03/p-490130140990401.jpg?_ex=600x600",
     "rating": 5,
     "review_count": 2,
-    "rating_source": "楽天市場"
+    "rating_source": "楽天市場",
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aeonstyleonline/cabinet/beauty03/p-490130140990401.jpg?_ex=600x600",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-07-25T01:11:12.845Z"
+  },
+  {
+    "id": "prod_037",
+    "name": "和気産業(Waki Sangyo)",
+    "short_name": "和気産業(Waki Sangyo)",
+    "price": 1255,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/B016U7IJ22?tag=himefireai-22",
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5232589f.63647877.523258a0.321fa8fb/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%2592%258C%25E6%25B0%2597%25E7%2594%25A3%25E6%25A5%25AD%2F"
+    },
+    "pain_points": [
+      "毎年の猛暑で日焼けや肌へのダメージが心配",
+      "日焼け止めを何度も塗り直すのが面倒くさい",
+      "日傘を差していても照り返しや暑さで汗が止まらない"
+    ],
+    "benefits": [
+      "強い紫外線と直射日光を遮り肌へのダメージを防ぐ",
+      "スプレーと併用することで塗り直しづらい髪や首元もガード",
+      "遮熱効果で外出時の体感温度を下げて快適に過ごせる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-07-26T01:15:21.870Z",
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tuzukiya/cabinet/0/0/4930/w08-3593.jpg?_ex=600x600"
   }
 ]
