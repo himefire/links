@@ -429,7 +429,13 @@ function generateProductCardHtml(p, rank = 0) {
     let metaHtml = '';
     const metaParts = [];
     if (p.price) {
-        metaParts.push(`<span class="card-price">&yen;${p.price.toLocaleString()}<span class="price-note">（購入時）</span></span>`);
+        // 価格の自動更新日があれば「M/D時点」、無ければ従来の「購入時」表記
+        let priceNote = '（購入時）';
+        if (p.price_checked_at) {
+            const d = new Date(p.price_checked_at);
+            if (!isNaN(d)) priceNote = `（${d.getMonth() + 1}/${d.getDate()}時点）`;
+        }
+        metaParts.push(`<span class="card-price">&yen;${p.price.toLocaleString()}<span class="price-note">${priceNote}</span></span>`);
     }
     if (p.video_count > 0) {
         metaParts.push(`<span class="meta-chip">${SVG_MOVIE}動画で紹介</span>`);

@@ -103,7 +103,7 @@
     "id": "prod_015",
     "name": "LAQUN",
     "short_name": "LAQUN",
-    "price": 17600,
+    "price": 19800,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4sy8ajp",
@@ -125,13 +125,14 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/laqunstore/cabinet/townhiker/imgrc0115801938.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-04-14T00:59:18.218Z"
+    "created_at": "2026-04-14T00:59:18.218Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_016",
     "name": "DC24 DAILY CARE キシリトールガム シュガーフリー",
     "short_name": "DC24 DAILY CARE キシリトールガム シュガーフリー",
-    "price": 1599,
+    "price": 5177,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/47Xgfqt",
@@ -150,7 +151,8 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/glomarket/cabinet/07178412/07764022/imgb0c2ymwj2v0.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-04-14T06:37:57.619Z"
+    "created_at": "2026-04-14T06:37:57.619Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_017",
@@ -178,7 +180,7 @@
     "id": "prod_018",
     "name": "「ふつう」ってなんだろう　病気と健康のあいだ (講談社現代新書)",
     "short_name": "「ふつう」ってなんだろう　病気と健康のあいだ (講談社現代新書)",
-    "price": 1001,
+    "price": 1056,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4tRJhAh",
@@ -197,7 +199,8 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3318/9784065423318_1_2.jpg?_ex=600x600",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-16T02:12:58.041Z"
+    "created_at": "2026-04-16T02:12:58.041Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_019",
@@ -226,7 +229,7 @@
     "id": "prod_020",
     "name": "【雑誌Tarzan掲載 × 柔道整復師監修】 膝サポーター 薄手",
     "short_name": "【雑誌Tarzan掲載 × 柔道整復師監修】 膝サポーター 薄手",
-    "price": 1899,
+    "price": 1100,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4cwFEZE",
@@ -248,7 +251,8 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hanaelife/cabinet/10658659/101-150/z134-000.jpg?_ex=600x600",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-17T23:05:23.340Z"
+    "created_at": "2026-04-17T23:05:23.340Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_021",
@@ -278,7 +282,7 @@
     "id": "prod_022",
     "name": "低温調理器 1100Wハイパワー 低温調理器具 24時間 予約機能",
     "short_name": "低温調理器 1100Wハイパワー 低温調理器具 24時間 予約機能",
-    "price": 6997,
+    "price": 8980,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4vvjjUO",
@@ -300,13 +304,14 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lican/cabinet/12290852/tlq01.jpg?_ex=600x600",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-20T00:43:37.323Z"
+    "created_at": "2026-04-20T00:43:37.323Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_023",
     "name": "【冬の乾燥対策】SwitchBot 温湿度計 プロ スマホで管理",
     "short_name": "【冬の乾燥対策】SwitchBot 温湿度計 プロ スマホで管理",
-    "price": 3480,
+    "price": 7980,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4vGyPgJ",
@@ -323,18 +328,19 @@
       "コンパクトでインテリアを邪魔せず設置できる"
     ],
     "rating": 4.66,
-    "review_count": 674,
+    "review_count": 679,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/switchbot/cabinet/09377790/c02/amazon/imgrc0082574109.jpg?_ex=600x600",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-20T01:39:03.003Z"
+    "created_at": "2026-04-20T01:39:03.003Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_024",
     "name": "【トレーナー監修】 腹筋ローラー アブローラー アブホイール",
     "short_name": "【トレーナー監修】 腹筋ローラー アブローラー アブホイール",
-    "price": 1490,
+    "price": 1580,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4tZjsOR",
@@ -356,7 +362,8 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tcconlineshop/cabinet/08713206/compass1690191513.jpg?_ex=600x600",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-20T03:05:28.295Z"
+    "created_at": "2026-04-20T03:05:28.295Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_025",
@@ -379,12 +386,13 @@
       "薄型設計なのでお気に入りの靴のデザインを邪魔しない"
     ],
     "rating": 3.98,
-    "review_count": 810,
+    "review_count": 812,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/flore-shop/cabinet/11297006/250623_01.jpg?_ex=600x600",
     "pinned": true,
     "video_count": 0,
-    "created_at": "2026-04-20T03:27:30.772Z"
+    "created_at": "2026-04-20T03:27:30.772Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_026",
@@ -418,7 +426,7 @@
     "id": "prod_027",
     "name": "【新モデル発売】ダンベル 可変式 24kg/40kg 可変式ダンベル",
     "short_name": "【新モデル発売】ダンベル 可変式 24kg/40kg 可変式ダンベル",
-    "price": 22800,
+    "price": 9750,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4vTcQ6g",
@@ -435,18 +443,19 @@
       "筋肉量を維持・向上させることで、太りにくく若々しい体型を目指せる"
     ],
     "rating": 4.7,
-    "review_count": 766,
+    "review_count": 776,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/motions/cabinet/md/md-24-40_tum_1.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-04-27T02:58:02.820Z"
+    "created_at": "2026-04-27T02:58:02.820Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_028",
     "name": "姿勢矯正ベルト 猫背矯正 男女兼用 【Y字型サポート&脇下クッション付き】",
     "short_name": "姿勢矯正ベルト 猫背矯正 男女兼用 【Y字型サポート&脇下クッション付き】",
-    "price": 3314,
+    "price": 2480,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4naE4RZ",
@@ -462,19 +471,20 @@
       "薄型設計で服の下に着けても目立たず、外出時もケアが可能",
       "姿勢が整うことで見た目の印象が明るくなり、自分に自信が持てる"
     ],
-    "rating": 4.19,
-    "review_count": 1959,
+    "rating": 4.2,
+    "review_count": 1966,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lorelife/cabinet/beauty/098/imgrc0098093426.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-04-30T07:18:33.641Z"
+    "created_at": "2026-04-30T07:18:33.641Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_029",
     "name": "GoCLN (ゴークリーン) 高純度 ビタミンD サプリ 2000IU",
     "short_name": "GoCLN (ゴークリーン) 高純度 ビタミンD サプリ 2000IU",
-    "price": 1780,
+    "price": 3880,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/3QFVqdp",
@@ -493,7 +503,8 @@
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/binokurashibin/cabinet/shohin/gocln-he/4580581540172-2_t.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-04-30T07:33:21.655Z"
+    "created_at": "2026-04-30T07:33:21.655Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_030",
@@ -597,18 +608,19 @@
       "刺激が少なくトラブル肌でも安心して毎日使える"
     ],
     "rating": 4.6,
-    "review_count": 201,
+    "review_count": 206,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rosette-shop/cabinet/itempage/sabon_sm_1ps/sabon_dfgh.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-05-14T03:12:59.145Z"
+    "created_at": "2026-05-14T03:12:59.145Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_034",
     "name": "【岩田剛典アンバサダー】DISM ディズム クリーミーフォームウォッシュ",
     "short_name": "【岩田剛典アンバサダー】DISM ディズム クリーミーフォームウォッシュ",
-    "price": 2200,
+    "price": 4400,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4dDKtSx",
@@ -624,13 +636,14 @@
       "洗顔するだけでしっとりとした潤い肌をキープ",
       "刺激が少なくトラブル肌でも安心して毎日使える"
     ],
-    "rating": 4.47,
-    "review_count": 32,
+    "rating": 5,
+    "review_count": 4,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/angfa/cabinet/2025/11697898/12000941/imgrc0147666310.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-05-14T03:16:24.258Z"
+    "created_at": "2026-05-14T03:16:24.258Z",
+    "price_checked_at": "2026-07-28"
   },
   {
     "id": "prod_035",
@@ -654,58 +667,5 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-07-24T04:17:51.170Z"
-  },
-  {
-    "id": "prod_036",
-    "name": "アルブラン ザ ファーストエッセンス 【美容液】 90ｇ 炭酸泡",
-    "short_name": "アルブラン ザ ファーストエッセンス 【美容液】 90ｇ 炭酸泡",
-    "price": 11000,
-    "harm_category": "health",
-    "links": {
-      "amazon": "https://www.amazon.co.jp/dp/B0CCNBF6QX?tag=himefireai-22",
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5232589f.63647877.523258a0.321fa8fb/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25A2%25E3%2583%25AB%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25B3%2520%25E3%2582%25B6%2520%25E3%2583%2595%25E3%2582%25A1%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25A8%25E3%2583%2583%2F"
-    },
-    "pain_points": [
-      "エアコンのつけっぱなしで肌や髪が乾燥する",
-      "朝起きると髪がパサついてまとまらない",
-      "夏の冷房による乾燥で肌のツヤが失われる"
-    ],
-    "benefits": [
-      "就寝中の摩擦や乾燥から髪を守り指通りがなめらかになる",
-      "寝ている間に潤いを閉じ込め翌朝もみずみずしい肌を保つ",
-      "睡眠中の乾燥トラブルを防ぎ健やかな肌と髪へ導く"
-    ],
-    "rating": 5,
-    "review_count": 2,
-    "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/aeonstyleonline/cabinet/beauty03/p-490130140990401.jpg?_ex=600x600",
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-07-25T01:11:12.845Z"
-  },
-  {
-    "id": "prod_037",
-    "name": "和気産業(Waki Sangyo)",
-    "short_name": "和気産業(Waki Sangyo)",
-    "price": 1255,
-    "harm_category": "health",
-    "links": {
-      "amazon": "https://www.amazon.co.jp/dp/B016U7IJ22?tag=himefireai-22",
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5232589f.63647877.523258a0.321fa8fb/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%2592%258C%25E6%25B0%2597%25E7%2594%25A3%25E6%25A5%25AD%2F"
-    },
-    "pain_points": [
-      "毎年の猛暑で日焼けや肌へのダメージが心配",
-      "日焼け止めを何度も塗り直すのが面倒くさい",
-      "日傘を差していても照り返しや暑さで汗が止まらない"
-    ],
-    "benefits": [
-      "強い紫外線と直射日光を遮り肌へのダメージを防ぐ",
-      "スプレーと併用することで塗り直しづらい髪や首元もガード",
-      "遮熱効果で外出時の体感温度を下げて快適に過ごせる"
-    ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-07-26T01:15:21.870Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tuzukiya/cabinet/0/0/4930/w08-3593.jpg?_ex=600x600"
   }
 ]
