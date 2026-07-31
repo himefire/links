@@ -739,13 +739,37 @@
       "お風呂上がりに手軽に全身の保湿ケアができる",
       "乾燥による肌トラブルを防ぎ健やかな肌へ導く"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-07-30T01:28:55.462Z",
-    "price_checked_at": "2026-07-30",
     "rating": 4.33,
     "review_count": 3,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/morro/cabinet/r_2025110753/20251107220808_94_1.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/morro/cabinet/r_2025110753/20251107220808_94_1.jpg?_ex=600x600",
+    "price_checked_at": "2026-07-30",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-07-30T01:28:55.462Z"
+  },
+  {
+    "id": "prod_039",
+    "name": "モエライフ",
+    "short_name": "モエライフ",
+    "price": 849,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B00FzJQfw",
+      "rakuten": "https://a.r10.to/hPwZWd"
+    },
+    "pain_points": [
+      "足元が冷えて夜中に何度も目が覚めてしまう",
+      "湯たんぽを直接当てて肌が赤くなったり低温やけどが心配",
+      "夏の冷房や冬の底冷えで足先が固くなってつらい"
+    ],
+    "benefits": [
+      "締め付けずに足首をじんわり温めて心地よい睡眠へ導く",
+      "直接的な熱刺激を防ぎながら適度な保温で冷えを防ぐ",
+      "年中使える軽やかな素材で寝ている間も快適にケアできる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-07-31T01:19:20.698Z"
   }
 ]
