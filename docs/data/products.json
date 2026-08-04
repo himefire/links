@@ -123,7 +123,7 @@
     "review_count": 5,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/laqunstore/cabinet/townhiker/imgrc0115801938.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-14T00:59:18.218Z"
@@ -132,7 +132,7 @@
     "id": "prod_016",
     "name": "DC24 DAILY CARE キシリトールガム シュガーフリー",
     "short_name": "DC24 DAILY CARE キシリトールガム シュガーフリー",
-    "price": 5177,
+    "price": 5031,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/47Xgfqt",
@@ -149,7 +149,7 @@
       "爽やかな清涼感で気分までリフレッシュできる"
     ],
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/glomarket/cabinet/07178412/07764022/imgb0c2ymwj2v0.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-14T06:37:57.619Z"
@@ -197,7 +197,7 @@
       "睡眠の質を根本から見直すことで、日中のパフォーマンス向上に繋がる"
     ],
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3318/9784065423318_1_2.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-16T02:12:58.041Z"
@@ -245,11 +245,11 @@
       "薄型設計でズボンの下でも目立たず日常使いしやすい",
       "膝の負担を軽減し、無理のない継続的な運動をサポート"
     ],
-    "rating": 4.09,
-    "review_count": 11,
+    "rating": 4.08,
+    "review_count": 12,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hanaelife/cabinet/10658659/101-150/z134-000.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-17T23:05:23.340Z"
@@ -302,7 +302,7 @@
     "review_count": 14,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lican/cabinet/12290852/tlq01.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T00:43:37.323Z"
@@ -311,7 +311,7 @@
     "id": "prod_023",
     "name": "【冬の乾燥対策】SwitchBot 温湿度計 プロ スマホで管理",
     "short_name": "【冬の乾燥対策】SwitchBot 温湿度計 プロ スマホで管理",
-    "price": 7980,
+    "price": 6780,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4vGyPgJ",
@@ -328,10 +328,10 @@
       "コンパクトでインテリアを邪魔せず設置できる"
     ],
     "rating": 4.66,
-    "review_count": 681,
+    "review_count": 682,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/switchbot/cabinet/09377790/c02/amazon/imgrc0082574109.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T01:39:03.003Z"
@@ -360,7 +360,7 @@
     "review_count": 310,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/tcconlineshop/cabinet/08713206/compass1690191513.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T03:05:28.295Z"
@@ -386,10 +386,10 @@
       "薄型設計なのでお気に入りの靴のデザインを邪魔しない"
     ],
     "rating": 3.98,
-    "review_count": 814,
+    "review_count": 815,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/flore-shop/cabinet/11297006/250623_01.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": true,
     "video_count": 0,
     "created_at": "2026-04-20T03:27:30.772Z"
@@ -446,7 +446,7 @@
     "review_count": 779,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/motions/cabinet/md/md-24-40_tum_1.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-27T02:58:02.820Z"
@@ -472,10 +472,10 @@
       "姿勢が整うことで見た目の印象が明るくなり、自分に自信が持てる"
     ],
     "rating": 4.2,
-    "review_count": 1970,
+    "review_count": 1972,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/lorelife/cabinet/beauty/098/imgrc0098093426.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-30T07:18:33.641Z"
@@ -501,7 +501,7 @@
       "美容と健康に欠かせない栄養素を、外出不要で手軽に摂取できる"
     ],
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/binokurashibin/cabinet/shohin/gocln-he/4580581540172-2_t.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-04-30T07:33:21.655Z"
@@ -535,7 +535,7 @@
     "id": "prod_031",
     "name": "N organic Vie スキンケアセット（化粧水 目元美容液",
     "short_name": "N organic Vie スキンケアセット（化粧水 目元美容液",
-    "price": 4490,
+    "price": 5050,
     "harm_category": "health",
     "links": {
       "amazon": "https://amzn.to/4nfp7hn",
@@ -555,7 +555,7 @@
     "review_count": 21,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/creidea-coms/cabinet/cosme/09681884/4589795140222.jpg?_ex=600x600",
-    "price_checked_at": "2026-07-29",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-07T01:37:37.567Z"
@@ -612,7 +612,7 @@
     "review_count": 211,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/rosette-shop/cabinet/itempage/sabon_sm_1ps/sabon_dfgh.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-14T03:12:59.145Z"
@@ -641,7 +641,7 @@
     "review_count": 4,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/angfa/cabinet/2025/11697898/12000941/imgrc0147666310.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-05-14T03:16:24.258Z"
@@ -690,7 +690,7 @@
       "紫外線と乾燥をダブルでガードできる"
     ],
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/marche-de-beaute/cabinet/13529357/imgrc0111891521.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-07-28T01:11:42.135Z"
@@ -744,7 +744,7 @@
     "review_count": 3,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/morro/cabinet/r_2025110753/20251107220808_94_1.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-07-30T01:28:55.462Z"
@@ -770,7 +770,7 @@
       "年中使える軽やかな素材で寝ている間も快適にケアできる"
     ],
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/hosket/cabinet/rakub110_0059/b0dr2nn86d00.jpg?_ex=600x600",
-    "price_checked_at": "2026-08-03",
+    "price_checked_at": "2026-08-04",
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-07-31T01:19:20.698Z"
@@ -795,13 +795,42 @@
       "UVカットしながら自然にトーンアップして素肌感を魅せる",
       "毎日のUVケアと落とすケアを同時に整えられる"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-03T01:09:42.861Z",
-    "price_checked_at": "2026-08-03",
     "rating": 5,
     "review_count": 1,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nrfonline/cabinet/onesell494/nrf3432628607.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nrfonline/cabinet/onesell494/nrf3432628607.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-04",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-03T01:09:42.861Z"
+  },
+  {
+    "id": "prod_041",
+    "name": "【脇のニオイや汗対策に】MATOWA 薬用 デオドラント クリーム",
+    "short_name": "【脇のニオイや汗対策に】MATOWA 薬用 デオドラント クリーム",
+    "price": 3582,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B0498tGy9",
+      "rakuten": "https://a.r10.to/hPgNjm"
+    },
+    "pain_points": [
+      "制汗スプレーを使いすぎて首元の肌荒れや赤みが気になる",
+      "汗やニオイは抑えたいけれど強い刺激で肌が負けてしまう",
+      "アルコールや添加物が入ったデオドラントがヒリヒリして使えない"
+    ],
+    "benefits": [
+      "無添加・アルコールフリーで敏感肌をやさしくケアできる",
+      "強い刺激を与えることなく汗や気になるニオイをガードする",
+      "毎日のケアでも肌に負担をかけず爽やかな快適さをキープできる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-04T01:09:51.226Z",
+    "price_checked_at": "2026-08-04",
+    "rating": 4.67,
+    "review_count": 3,
+    "rating_source": "楽天市場",
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/fanfareshop/cabinet/05763803/12965683/12965687/imgrc0114994323.jpg?_ex=600x600"
   }
 ]
