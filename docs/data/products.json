@@ -853,10 +853,10 @@
       "優しく洗い上げることで皮脂の過剰分泌を防ぐ",
       "頭皮用美容液で毎日の頭皮保湿ケアが手軽にできる"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nova2021/cabinet/rakuv269_0005/b09gs2xx6b00.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-05T01:17:12.380Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nova2021/cabinet/rakuv269_0005/b09gs2xx6b00.jpg?_ex=600x600"
+    "created_at": "2026-08-05T01:17:12.380Z"
   },
   {
     "id": "prod_c01",
@@ -1167,5 +1167,77 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-08-05T04:13:43.523Z"
+  },
+  {
+    "id": "prod_043",
+    "name": "ミネラル保湿クリーム ボディクリーム アトピーラボ共同開発 赤ちゃん",
+    "short_name": "ミネラル保湿クリーム ボディクリーム アトピーラボ共同開発 赤ちゃん",
+    "price": 2480,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B06mqT5iY",
+      "rakuten": "https://a.r10.to/hR9aJc"
+    },
+    "pain_points": [
+      "冷感シートで肌がヒリヒリ乾燥する",
+      "猛暑対策で肌荒れや赤みが起きた",
+      "首元の皮膚がカサカサして痒い"
+    ],
+    "benefits": [
+      "冷やしすぎでダメージを受けた肌にうるおいを与える",
+      "低刺激処方でデリケートな首元をやさしく保護する",
+      "乾燥による角質層の乱れをしっかり整える"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-05T06:04:30.142Z"
+  },
+  {
+    "id": "prod_044",
+    "name": "Perfect Potion[パーフェクトポーション] アウトドアボディスプレー",
+    "short_name": "Perfect Potion[パーフェクトポーション] アウトドアボディスプレー",
+    "price": 1264,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B0dGBMjZi",
+      "rakuten": "https://a.r10.to/h530xc"
+    },
+    "pain_points": [
+      "猛暑の汗や蒸れで肌が荒れてしまう",
+      "清涼スプレーで刺激を感じやすくなった",
+      "清涼感と肌の乾燥ケアを両立したい"
+    ],
+    "benefits": [
+      "メントール効果で暑い夏もスーッと爽快に過ごせる",
+      "肌に優しい成分でデリケートな肌を守る",
+      "お風呂上がりや外出先でも手軽に涼しさをプラス"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-05T06:14:56.342Z"
+  },
+  {
+    "id": "prod_045",
+    "name": "CRAFT WORKS (クラフトワークス) ダブル涼風 ツインファン",
+    "short_name": "CRAFT WORKS (クラフトワークス) ダブル涼風 ツインファン",
+    "price": 2862,
+    "harm_category": "money",
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/B0CW39M8RV?tag=himefireai-22",
+      "rakuten": "https://a.r10.to/hk5tiA"
+    },
+    "pain_points": [
+      "夏場の電気代の請求額が高くてショックを受ける",
+      "エアコンの温度設定を我慢しても電気代が下がらない",
+      "部屋がなかなか冷えず効率的に冷房を回せない"
+    ],
+    "benefits": [
+      "空気を循環させてエアコンの冷房効率を大幅に高める",
+      "窓からの直射日光と熱を遮り室温上昇を抑える",
+      "無理な我慢をせずに毎月の電気代を賢く抑えられる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-05T06:41:57.790Z"
   }
 ]
