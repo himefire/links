@@ -1212,14 +1212,14 @@
       "肌に優しい成分でデリケートな肌を守る",
       "お風呂上がりや外出先でも手軽に涼しさをプラス"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-05T06:14:56.342Z",
-    "price_checked_at": "2026-08-05",
     "rating": 4.71,
     "review_count": 7,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfectpotion/cabinet/compass1743141670.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/perfectpotion/cabinet/compass1743141670.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-05",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-05T06:14:56.342Z"
   },
   {
     "id": "prod_045",
@@ -1241,10 +1241,10 @@
       "窓からの直射日光と熱を遮り室温上昇を抑える",
       "無理な我慢をせずに毎月の電気代を賢く抑えられる"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/auto1direct/cabinet/11967455/imgrc0152336057.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-05T06:41:57.790Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/auto1direct/cabinet/11967455/imgrc0152336057.jpg?_ex=600x600"
+    "created_at": "2026-08-05T06:41:57.790Z"
   },
   {
     "id": "prod_a02",
@@ -1710,5 +1710,29 @@
     "pinned": false,
     "video_count": 0,
     "created_at": "2026-08-05T07:16:43.900Z"
+  },
+  {
+    "id": "prod_046",
+    "name": "P3 NMN ヒカル プロデュース 1箱9000mg 高純度99.9%",
+    "short_name": "P3 NMN ヒカル プロデュース 1箱9000mg 高純度99.9%",
+    "price": 14040,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B01idDIJO",
+      "rakuten": "https://a.r10.to/hgF612"
+    },
+    "pain_points": [
+      "高価なヘアケアを試しても髪のパサつきや傷みが改善しない",
+      "毎朝起きると髪が絡まって爆発している",
+      "寝ている間の摩擦ダメージに気づいていない"
+    ],
+    "benefits": [
+      "睡眠中の頭皮や髪への摩擦ダメージを大幅に軽減する",
+      "朝のスタイリング時間を短縮しツヤ髪をキープできる",
+      "被る・敷くだけで手軽に毎日のナイトケアを習慣化できる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-06T17:12:44.672Z"
   }
 ]
