@@ -1731,14 +1731,62 @@
       "朝のスタイリング時間を短縮しツヤ髪をキープできる",
       "被る・敷くだけで手軽に毎日のナイトケアを習慣化できる"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-06T17:12:44.672Z",
-    "price_checked_at": "2026-08-07",
     "rating": 5,
     "review_count": 3,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/chillers/cabinet/p3/thum/p3-thum-re.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/chillers/cabinet/p3/thum/p3-thum-re.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-07",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-06T17:12:44.672Z"
+  },
+  {
+    "id": "prod_047",
+    "name": "ミーテ",
+    "short_name": "ミーテ",
+    "price": 2475,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B0h7ytJW2",
+      "rakuten": "https://a.r10.to/h5jGy7"
+    },
+    "pain_points": [
+      "夏場のエアコン風で足元が冷え切る",
+      "足元の冷えで夜中に何度も目が覚める",
+      "靴下を履いて寝ても足先が冷たい"
+    ],
+    "benefits": [
+      "足首を温めることで身体の巡りをサポートする",
+      "締め付け感がなく睡眠を邪魔しない",
+      "エアコン冷房から足元を優しく守る"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-10T17:19:24.685Z"
+  },
+  {
+    "id": "prod_048",
+    "name": "【Bowers & Wilkins】 Px8 S2 (オニキス・ブラック)",
+    "short_name": "【Bowers & Wilkins】 Px8 S2 (オニキス・ブラック)",
+    "price": 118000,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B0fmVQITB",
+      "rakuten": "https://a.r10.to/hPmAbV"
+    },
+    "pain_points": [
+      "猛暑の室内でエアコンや周囲の雑音が気になって勉強に集中できない",
+      "長時間の勉強で耳や頭が熱くなり疲れてしまう",
+      "周囲の環境音で思考が中断され目標の勉強時間を達成できない"
+    ],
+    "benefits": [
+      "圧倒的な静寂を作り出し、一瞬で深い集中状態に入れる",
+      "長時間装着しても快適で、夏の10時間勉強も乗り切れる",
+      "雑音をカットすることで記憶効率と作業スピードが大幅に向上する"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-10T17:51:07.757Z"
   },
   {
     "id": "svc_chef_mutenka",
@@ -1761,7 +1809,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-10T15:12:12.843790"
+    "created_at": "2026-08-11T03:23:13.030090"
   },
   {
     "id": "svc_fitfood_home",
@@ -1783,7 +1831,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-10T15:12:12.843797"
+    "created_at": "2026-08-11T03:23:13.030095"
   },
   {
     "id": "svc_shokurakuzen",
@@ -1806,7 +1854,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-10T15:12:12.843799"
+    "created_at": "2026-08-11T03:23:13.030097"
   },
   {
     "id": "svc_medical_food",
@@ -1828,6 +1876,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-10T15:12:12.843800"
+    "created_at": "2026-08-11T03:23:13.030098"
   }
 ]
