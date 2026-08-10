@@ -1739,5 +1739,91 @@
     "review_count": 3,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/chillers/cabinet/p3/thum/p3-thum-re.jpg?_ex=600x600"
+  },
+  {
+    "id": "svc_chef_mutenka",
+    "name": "シェフの無添つくりおき",
+    "display_name": "シェフの無添つくりおき",
+    "subtitle": "無添加の冷蔵お惣菜を自宅にお届け | 働く家庭の味方",
+    "short_name": "シェフの無添つくりおき",
+    "harm_category": "health",
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4BA2HA+NTFAI+57YO+5YJRM"
+    },
+    "pain_points": [
+      "毎日の夕食づくりに疲れ果てているが、市販の惣菜は添加物が気になる",
+      "子どもには安心なものを食べさせたいけど、時間がない"
+    ],
+    "benefits": [
+      "シェフが作る無添加のつくりおきが冷蔵で届く",
+      "調理の手間なく、家庭の食卓の質を上げられる"
+    ],
+    "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
+    "service_genre": "宅食",
+    "created_at": "2026-08-10T15:12:12.843790"
+  },
+  {
+    "id": "svc_fitfood_home",
+    "name": "FIT FOOD HOME",
+    "display_name": "FIT FOOD HOME（無添加冷凍惣菜）",
+    "subtitle": "国産素材＆無添加調理の冷凍惣菜をお届け",
+    "short_name": "FIT FOOD HOME（無添加冷凍惣",
+    "harm_category": "health",
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4BA2HA+Q75PM+57YO+BX3J6"
+    },
+    "pain_points": [
+      "加工食品の添加物が気になるが、無添加の自炊を毎日続ける余力はない"
+    ],
+    "benefits": [
+      "国産素材・無添加調理の惣菜が冷凍で届く",
+      "レンジだけで「無添加の食事」が習慣にできる"
+    ],
+    "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
+    "service_genre": "宅食",
+    "created_at": "2026-08-10T15:12:12.843797"
+  },
+  {
+    "id": "svc_shokurakuzen",
+    "name": "食楽膳",
+    "display_name": "食楽膳（やわらか・嚥下対応の冷凍惣菜）",
+    "subtitle": "管理栄養士監修、嚥下対応の冷凍惣菜を自宅へ",
+    "short_name": "食楽膳（やわらか・嚥下対応の冷凍惣菜）",
+    "harm_category": "health",
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4BA2HA+PLQ3U+5VTA+5YJRM"
+    },
+    "pain_points": [
+      "離れて暮らす親の食事が心配",
+      "やわらかい食事を毎日手作りするのは負担が大きい"
+    ],
+    "benefits": [
+      "管理栄養士監修の嚥下対応食が冷凍で届く",
+      "家族の「食べられない」に専門設計で応えられる"
+    ],
+    "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
+    "service_genre": "宅食",
+    "created_at": "2026-08-10T15:12:12.843799"
+  },
+  {
+    "id": "svc_medical_food",
+    "name": "メディカルフードサービス",
+    "display_name": "メディカルフードサービス（制限食宅配）",
+    "subtitle": "総出荷600万食突破・栄養価を徹底管理した健康宅配食",
+    "short_name": "メディカルフードサービス（制限食宅配）",
+    "harm_category": "health",
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4BA2HA+2LH2R6+4GYQ+5YRHE"
+    },
+    "pain_points": [
+      "数値改善のための食事制限を、自炊で続けるのが難しい"
+    ],
+    "benefits": [
+      "栄養価を徹底管理した制限食が届く",
+      "600万食の実績がある専門業者で安心感がある"
+    ],
+    "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
+    "service_genre": "宅食",
+    "created_at": "2026-08-10T15:12:12.843800"
   }
 ]
