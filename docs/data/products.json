@@ -1760,14 +1760,14 @@
       "締め付け感がなく睡眠を邪魔しない",
       "エアコン冷房から足元を優しく守る"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-10T17:19:24.685Z",
-    "price_checked_at": "2026-08-12",
     "rating": 4.68,
     "review_count": 331,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mite-shop/cabinet/ef/item04/lightlong-kago.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mite-shop/cabinet/ef/item04/lightlong-kago.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-12",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-10T17:19:24.685Z"
   },
   {
     "id": "prod_048",
@@ -1789,11 +1789,35 @@
       "長時間装着しても快適で、夏の10時間勉強も乗り切れる",
       "雑音をカットすることで記憶効率と作業スピードが大幅に向上する"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/whitehalca/cabinet/12881014/4389904_6.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-12",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-10T17:51:07.757Z",
-    "price_checked_at": "2026-08-12",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/whitehalca/cabinet/12881014/4389904_6.jpg?_ex=600x600"
+    "created_at": "2026-08-10T17:51:07.757Z"
+  },
+  {
+    "id": "prod_049",
+    "name": "中村忠三郎商店 中忠商店 UVカット 冷房対策 アームカバー",
+    "short_name": "中村忠三郎商店 中忠商店 UVカット 冷房対策 アームカバー",
+    "price": 1380,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B06ZCGslL",
+      "rakuten": "https://a.r10.to/hPlGIx"
+    },
+    "pain_points": [
+      "夏場に靴下を履いて寝ると途中で蒸れて脱いでしまう",
+      "エアコン冷え対策で靴下を履いても足先がムレて寝苦しい",
+      "朝起きると足の冷えやだるさを感じる"
+    ],
+    "benefits": [
+      "シルク素材の優れた通気性で蒸れずに朝まで快適に保温できる",
+      "つま先が出ているデザインで熱を逃がしつつ足首を温められる",
+      "履くだけで締め付け感なく夏の冷房冷えをサッとケアできる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-12T17:29:57.889Z"
   },
   {
     "id": "svc_chef_mutenka",
@@ -1816,7 +1840,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-11T03:23:13.030090"
+    "created_at": "2026-08-13T02:47:19.922627"
   },
   {
     "id": "svc_fitfood_home",
@@ -1838,7 +1862,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-11T03:23:13.030095"
+    "created_at": "2026-08-13T02:47:19.922632"
   },
   {
     "id": "svc_shokurakuzen",
@@ -1861,7 +1885,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-11T03:23:13.030097"
+    "created_at": "2026-08-13T02:47:19.922634"
   },
   {
     "id": "svc_medical_food",
@@ -1883,6 +1907,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-11T03:23:13.030098"
+    "created_at": "2026-08-13T02:47:19.922635"
   }
 ]
