@@ -974,7 +974,7 @@
     ],
     "pick_reason": "レビュー73,558件で4.8点！世界最高レベルの炭酸充填量5.0の強炭酸水。",
     "rating": 4.8,
-    "review_count": 73711,
+    "review_count": 73712,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/vox-official-store/cabinet/product-thumb/vox_sale/vox_sale_260805.jpg?_ex=600x600",
     "price_checked_at": "2026-08-12",
@@ -1517,7 +1517,7 @@
     ],
     "pick_reason": "レビュー9946件で4.56点の高評価！YouTubeで1400万回再生された実績を持つ、話題の入浴剤福袋です。",
     "rating": 4.56,
-    "review_count": 9947,
+    "review_count": 9948,
     "rating_source": "楽天市場",
     "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/you2han/cabinet/nyzai/nyu100-20161.jpg?_ex=600x600",
     "price_checked_at": "2026-08-12",
@@ -1817,7 +1817,12 @@
     ],
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-12T17:29:57.889Z"
+    "created_at": "2026-08-12T17:29:57.889Z",
+    "price_checked_at": "2026-08-12",
+    "rating": 4.83,
+    "review_count": 6,
+    "rating_source": "楽天市場",
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/em-shop/cabinet/test/11616578/184787210.jpg?_ex=600x600"
   },
   {
     "id": "svc_chef_mutenka",
