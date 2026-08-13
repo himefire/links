@@ -1815,14 +1815,86 @@
       "つま先が出ているデザインで熱を逃がしつつ足首を温められる",
       "履くだけで締め付け感なく夏の冷房冷えをサッとケアできる"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-12T17:29:57.889Z",
-    "price_checked_at": "2026-08-12",
     "rating": 4.83,
     "review_count": 6,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/em-shop/cabinet/test/11616578/184787210.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/em-shop/cabinet/test/11616578/184787210.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-12",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-12T17:29:57.889Z"
+  },
+  {
+    "id": "prod_050",
+    "name": "臨床心理フロンティアシリーズ 認知行動療法入門",
+    "short_name": "臨床心理フロンティアシリーズ 認知行動療法入門",
+    "price": 2640,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B092Imen4",
+      "rakuten": "https://a.r10.to/h57mJN"
+    },
+    "pain_points": [
+      "自分に無理なポジティブ思考を強いて疲れてしまう",
+      "理想と現実のギャップに悩み落ち込んでしまう",
+      "自己否定を抑え込もうとして逆にストレスが溜まる"
+    ],
+    "benefits": [
+      "認知の歪みに気づき自分の感情と上手に向き合えるようになる",
+      "根拠のないポジティブではなく客観的な視点が身につく",
+      "心理学の基礎を学んで無理のない自己理解を深められる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-13T10:51:47.833Z"
+  },
+  {
+    "id": "prod_051",
+    "name": "三ツ星ファーム 人気セレクト （7食/14食/21食） 冷凍弁当",
+    "short_name": "三ツ星ファーム 人気セレクト （7食/14食/21食） 冷凍弁当",
+    "price": 7500,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B07HwmXb5",
+      "rakuten": "https://a.r10.to/hPNOdK"
+    },
+    "pain_points": [
+      "暑い日は麺だけの食事に偏りやすい",
+      "毎日の献立と調理が負担になる",
+      "たんぱく質や野菜まで考えるのが面倒"
+    ],
+    "benefits": [
+      "温めるだけで食事を用意しやすい",
+      "主菜と副菜をまとめて食べられる",
+      "忙しい日も食事の選択肢を増やせる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-13T17:24:50.152Z"
+  },
+  {
+    "id": "prod_052",
+    "name": "【2025新登場】加湿器 卓上 小型 Type-C充電式 卓上加湿器",
+    "short_name": "【2025新登場】加湿器 卓上 小型 Type-C充電式 卓上加湿器",
+    "price": 1799,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B030GM4au",
+      "rakuten": "https://a.r10.to/hFmlHk"
+    },
+    "pain_points": [
+      "冷房を強くしすぎて朝がつらい",
+      "寝室の乾燥や温度に気づきにくい",
+      "暑さ対策で仕事の集中まで崩れる"
+    ],
+    "benefits": [
+      "室温と湿度を数字で確認しやすい",
+      "空気を動かしながら加湿も狙える",
+      "感覚任せの冷房設定を見直しやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-13T17:50:00.692Z"
   },
   {
     "id": "svc_chef_mutenka",
@@ -1845,7 +1917,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-13T02:47:19.922627"
+    "created_at": "2026-08-14T02:51:53.006890"
   },
   {
     "id": "svc_fitfood_home",
@@ -1867,7 +1939,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-13T02:47:19.922632"
+    "created_at": "2026-08-14T02:51:53.006895"
   },
   {
     "id": "svc_shokurakuzen",
@@ -1890,7 +1962,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-13T02:47:19.922634"
+    "created_at": "2026-08-14T02:51:53.006897"
   },
   {
     "id": "svc_medical_food",
@@ -1912,6 +1984,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-13T02:47:19.922635"
+    "created_at": "2026-08-14T02:51:53.006899"
   }
 ]
