@@ -51,8 +51,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 // 親ディレクトリの data/products.json を参照する
 async function loadProducts() {
     try {
-        // カテゴリ固定モードならサブディレクトリにいるので ../data/ を参照
-        const dataPath = FIXED_CATEGORY ? '../data/products.json' : './data/products.json';
+        // カテゴリ固定モードならサブディレクトリにいるので ../data/ を参照。
+        // ただしスタンドアロン版(1チャンネル=1サイト、sites/生成物)はカテゴリ固定
+        // かつルート直下なので ./data/ を参照する
+        const dataPath = (FIXED_CATEGORY && !window.SITE_STANDALONE)
+            ? '../data/products.json' : './data/products.json';
         const res = await fetch(dataPath);
         let allProducts = await res.json();
 
@@ -231,13 +234,17 @@ function renderRanked() {
     if (visible.length === 0) {
         topSection.style.display = 'block';
         setSectionHeading(topSection, 'COMING SOON', '');
-        topGrid.innerHTML = `
-            <div class="empty-state">
-                <p style="margin-bottom:18px;">このカテゴリは現在準備中です。<br>まずは充実している「健康・美容」から見てみませんか？</p>
+        // スタンドアロン版には他カテゴリ・ハブが存在しない(匿名分離のため相互リンク禁止)
+        const emptyCtas = window.SITE_STANDALONE ? '' : `
                 <div class="empty-cta-group">
                     <a class="card-cta btn-amazon" href="../health/">健康・美容のおすすめを見る ${SVG_ARROW}</a>
                     <a class="card-cta btn-default" href="../">カテゴリ一覧に戻る ${SVG_ARROW}</a>
-                </div>
+                </div>`;
+        topGrid.innerHTML = `
+            <div class="empty-state">
+                <p style="margin-bottom:18px;">${window.SITE_STANDALONE
+                    ? '新しいおすすめを準備中です。もう少しだけお待ちください。'
+                    : 'このカテゴリは現在準備中です。<br>まずは充実している「健康・美容」から見てみませんか？'}</p>${emptyCtas}
             </div>`;
         if (restSection) restSection.style.display = 'none';
         return;
@@ -503,7 +510,8 @@ function generateProductCardHtml(p, rank = 0) {
     const commentText = p.one_comment || p.pick_reason;
     if (commentText) {
         const commentLabel = p.one_comment ? '使ってみた本音' : '編集部の推しポイント';
-        const avatarPath = FIXED_CATEGORY ? '../assets/profile.png' : './assets/profile.png';
+        const avatarPath = (FIXED_CATEGORY && !window.SITE_STANDALONE)
+            ? '../assets/profile.png' : './assets/profile.png';
         commentHtml = `
             <div class="card-comment">
                 <span class="comment-avatar"><img src="${avatarPath}" alt="運営者" loading="lazy"></span>
