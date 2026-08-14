@@ -1844,11 +1844,11 @@
       "根拠のないポジティブではなく客観的な視点が身につく",
       "心理学の基礎を学んで無理のない自己理解を深められる"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/8114/9784061548114_1_5.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-13",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-13T10:51:47.833Z",
-    "price_checked_at": "2026-08-13",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/8114/9784061548114_1_5.jpg?_ex=600x600"
+    "created_at": "2026-08-13T10:51:47.833Z"
   },
   {
     "id": "prod_051",
@@ -1870,10 +1870,10 @@
       "主菜と副菜をまとめて食べられる",
       "忙しい日も食事の選択肢を増やせる"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mitsuboshifarm/cabinet/item_image/event/default/mbi-luxurywestern-7.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-13T17:24:50.152Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/mitsuboshifarm/cabinet/item_image/event/default/mbi-luxurywestern-7.jpg?_ex=600x600"
+    "created_at": "2026-08-13T17:24:50.152Z"
   },
   {
     "id": "prod_052",
@@ -1895,14 +1895,62 @@
       "空気を動かしながら加湿も狙える",
       "感覚任せの冷房設定を見直しやすい"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-13T17:50:00.692Z",
-    "price_checked_at": "2026-08-13",
     "rating": 4.36,
     "review_count": 5346,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kouseisyouten/cabinet/11522154/imgrc0107395498.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kouseisyouten/cabinet/11522154/imgrc0107395498.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-13",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-13T17:50:00.692Z"
+  },
+  {
+    "id": "prod_053",
+    "name": "パーフェクトワンフォーカス (PERFECT ONE FOCUS)",
+    "short_name": "パーフェクトワンフォーカス (PERFECT ONE FOCUS)",
+    "price": 2970,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B06eT5hbq",
+      "rakuten": "https://a.r10.to/hF6HP6"
+    },
+    "pain_points": [
+      "クレンジング時につい顔をこすってしまう",
+      "洗顔後のつっぱり感が気になる",
+      "毎日のメイク落としをやさしくしたい"
+    ],
+    "benefits": [
+      "肌への摩擦を抑えながらメイクを落としやすい",
+      "やさしい使い心地で毎日続けやすい",
+      "バームがなじんで力を入れずに洗いやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-14T17:33:52.065Z"
+  },
+  {
+    "id": "prod_054",
+    "name": "[CAGUUU公式] 昇降デスク 電動 昇降式デスク 一枚板【ACコンセント/U…",
+    "short_name": "[CAGUUU公式] 昇降デスク 電動 昇降式デスク 一枚板【ACコンセント/U...",
+    "price": 29890,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B0i9AC73h",
+      "rakuten": "https://a.r10.to/hgx0Q5"
+    },
+    "pain_points": [
+      "午後になると集中が切れやすい",
+      "座りっぱなしで気分転換しにくい",
+      "眠気対策で飲み物に頼りがち"
+    ],
+    "benefits": [
+      "立ち姿勢へ切り替えて気分転換できる",
+      "ボタン操作で高さを変えやすい",
+      "仕事中に姿勢を変えるきっかけになる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-14T17:59:59.167Z"
   },
   {
     "id": "svc_chef_mutenka",
@@ -1925,7 +1973,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-14T02:51:53.006890"
+    "created_at": "2026-08-15T03:01:51.317155"
   },
   {
     "id": "svc_fitfood_home",
@@ -1947,7 +1995,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-14T02:51:53.006895"
+    "created_at": "2026-08-15T03:01:51.317160"
   },
   {
     "id": "svc_shokurakuzen",
@@ -1970,7 +2018,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-14T02:51:53.006897"
+    "created_at": "2026-08-15T03:01:51.317162"
   },
   {
     "id": "svc_medical_food",
@@ -1992,6 +2040,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-14T02:51:53.006899"
+    "created_at": "2026-08-15T03:01:51.317164"
   }
 ]
