@@ -503,13 +503,17 @@ function generateProductCardHtml(p, rank = 0) {
     }
 
     // --- コメント吹き出し（運営者アバター付き = 信頼の演出） ---
-    // one_comment: 運営者が実際に使った本音レビュー →「使ってみた本音」
-    // pick_reason: 使用体験を伴わない編集部の推薦理由 →「編集部の推しポイント」
-    //   ※ステマ規制（景表法）対応: 使っていない商品に個人の使用体験を騙らない
+    // pick_reason: 使用体験を伴わない選定理由 →「◯◯の選定メモ」(ペルソナ名義)
+    //   ※ステマ規制（景表法）対応: 使っていない商品に使用体験を騙らない。
+    //   「使ってみた本音」(one_comment)は全商品未使用と確認されたため廃止(2026-08-14)
     let commentHtml = '';
-    const commentText = p.one_comment || p.pick_reason;
+    const PERSONA_NOTES = {
+        health: 'ゆいの選定メモ', ambition: 'しほの選定メモ',
+        relation: 'こはるの選定メモ', money: 'みおの選定メモ',
+    };
+    const commentText = p.pick_reason;
     if (commentText) {
-        const commentLabel = p.one_comment ? '使ってみた本音' : '編集部の推しポイント';
+        const commentLabel = PERSONA_NOTES[p.harm_category] || '編集部の選定メモ';
         const avatarPath = (FIXED_CATEGORY && !window.SITE_STANDALONE)
             ? '../assets/profile.png' : './assets/profile.png';
         commentHtml = `
@@ -572,7 +576,7 @@ function generateProductCardHtml(p, rank = 0) {
 
     return `
         <article class="premium-card reveal">
-            <div class="card-visual" style="--c1:${c1};--c2:${c2}">
+            <div class="card-visual${p.image_url ? '' : ' card-visual--noimg'}" style="--c1:${c1};--c2:${c2}">
                 ${ribbonHtml}
                 ${medalHtml}
                 ${visualBody}

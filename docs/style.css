@@ -243,6 +243,8 @@ ul { list-style: none; }
     gap: 10px;
 }
 .card-visual img { max-height: 190px; object-fit: contain; }
+/* 画像なし(サービス案件等): 巨大な空白を作らないコンパクト表示 */
+.card-visual--noimg { min-height: 0; padding: 18px 22px 14px; }
 .visual-name {
     font-size: 13px;
     color: var(--ink-soft);
@@ -420,7 +422,10 @@ ul { list-style: none; }
 .btn-amazon { background: var(--ink); color: var(--paper-card); }
 .btn-amazon:hover { background: var(--accent); border-color: var(--accent); }
 /* 楽天/Yahoo/その他は罫線ボタンのまま(色分けしない) */
-.btn-rakuten, .btn-yahoo, .btn-a8, .btn-brain, .btn-default { background: transparent; color: var(--ink); }
+.btn-rakuten, .btn-yahoo, .btn-brain, .btn-default { background: transparent; color: var(--ink); }
+/* サービス案件(A8)のCTA: カード内唯一のボタンかつ最高単価のため塗りで最強調 */
+.btn-a8 { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+.btn-a8:hover { background: var(--ink); border-color: var(--ink); color: var(--paper-card); }
 
 .cta-note {
     font-size: 10.5px;
