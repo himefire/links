@@ -262,7 +262,7 @@ function renderRanked() {
             restSection.style.display = 'none';
         } else {
             restSection.style.display = 'block';
-            setSectionHeading(restSection, 'そのほかの愛用アイテム', '順位はつけていませんが、どれも実際に使い続けているものだけです。');
+            setSectionHeading(restSection, 'そのほかのおすすめ', '順位はつけていませんが、どれも比較して選び抜いたものだけです。');
             // NEW(7日以内)はフルカードのまま（動画から来た人の目当て商品の受け皿）。
             // それ以外はコンパクト行にしてページ全長を圧縮。タップでフルカードに展開。
             const fresh = rest.filter(p => isWithin7Days(p.created_at));
