@@ -2004,6 +2004,53 @@
     "created_at": "2026-08-16T00:48:18.943Z"
   },
   {
+    "id": "prod_057",
+    "name": "＜6/9 NHKあさイチ出演で話題！＞管理栄養士おすぎの　からだ整う冷凍作りおき",
+    "short_name": "＜6/9 NHKあさイチ出演で話題！＞管理栄養士おすぎの　からだ整う冷凍作りおき",
+    "price": 1650,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B0ciFAcyf",
+      "rakuten": "https://a.r10.to/hPI1eW"
+    },
+    "pain_points": [
+      "健康を意識すると食事が単調になる",
+      "忙しい日は自炊する余裕がない",
+      "手軽さと食事のバランスを両立しづらい"
+    ],
+    "benefits": [
+      "調理の手間を減らして食事を用意できる",
+      "いろいろなおかずを手軽に楽しめる",
+      "忙しい日でも食生活を整えやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-16T17:24:45.908Z"
+  },
+  {
+    "id": "prod_058",
+    "name": "Kindle Paperwhite シグニチャーエディション",
+    "short_name": "Kindle Paperwhite シグニチャーエディション",
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B0ifc8pYT",
+      "rakuten": "https://a.r10.to/hgFknY"
+    },
+    "pain_points": [
+      "本を開いたまま読むと手が疲れる",
+      "大量の本を持ち歩くのが大変",
+      "読書しても内容を忘れてしまう"
+    ],
+    "benefits": [
+      "電子書籍なら大量の本をまとめて持ち歩ける",
+      "ブックスタンドで手を空けながら読書できる",
+      "気になった一文を残して振り返りやすくなる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-16T17:51:24.079Z"
+  },
+  {
     "id": "svc_chef_mutenka",
     "name": "シェフの無添つくりおき",
     "display_name": "シェフの無添つくりおき",
@@ -2024,7 +2071,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-16T10:06:13.903185"
+    "created_at": "2026-08-17T02:53:15.513607"
   },
   {
     "id": "svc_fitfood_home",
@@ -2046,7 +2093,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-16T10:06:13.903192"
+    "created_at": "2026-08-17T02:53:15.513613"
   },
   {
     "id": "svc_shokurakuzen",
@@ -2069,7 +2116,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-16T10:06:13.903194"
+    "created_at": "2026-08-17T02:53:15.513615"
   },
   {
     "id": "svc_medical_food",
@@ -2091,6 +2138,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-16T10:06:13.903196"
+    "created_at": "2026-08-17T02:53:15.513616"
   }
 ]
