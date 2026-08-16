@@ -1922,14 +1922,14 @@
       "やさしい使い心地で毎日続けやすい",
       "バームがなじんで力を入れずに洗いやすい"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-14T17:33:52.065Z",
-    "price_checked_at": "2026-08-14",
     "rating": 4.44,
     "review_count": 100,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/shinnihonseiyaku/cabinet/item/focus/focus_scbp/thumb_2508.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/shinnihonseiyaku/cabinet/item/focus/focus_scbp/thumb_2508.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-14",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-14T17:33:52.065Z"
   },
   {
     "id": "prod_054",
@@ -1956,6 +1956,54 @@
     "created_at": "2026-08-14T17:59:59.167Z"
   },
   {
+    "id": "prod_055",
+    "name": "[ 夏のお守り美容 ] WHITH WHITE フィス ホワイト",
+    "short_name": "[ 夏のお守り美容 ] WHITH WHITE フィス ホワイト",
+    "price": 1332,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B0eQysPPF",
+      "rakuten": "https://a.r10.to/hP74oR"
+    },
+    "pain_points": [
+      "UVパーカーを着ているのに日焼けしてしまう",
+      "夏場の重ね着が暑くて汗だくになる",
+      "日焼け止めの塗り直しが面倒で続かない"
+    ],
+    "benefits": [
+      "内側からのケアで手軽にUV対策をサポート",
+      "外出先での塗り直しの手間を減らせる",
+      "暑い夏でも厚着せず快適に過ごせる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-15T23:45:20.284Z"
+  },
+  {
+    "id": "prod_056",
+    "name": "[OWNDAYS] ブルーライトカット メガネ ノートPC UVカット",
+    "short_name": "[OWNDAYS] ブルーライトカット メガネ ノートPC UVカット",
+    "price": 5500,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B02kQJGO4",
+      "rakuten": "https://a.r10.to/h57cOo"
+    },
+    "pain_points": [
+      "長時間のPC作業で目がつらい",
+      "前のめりの姿勢になりやすい",
+      "長時間作業の環境を整えたい"
+    ],
+    "benefits": [
+      "長時間の画面作業を快適にしやすい",
+      "PCの高さを調整しやすくなる",
+      "作業環境を手軽に整えられる"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-16T00:48:18.943Z"
+  },
+  {
     "id": "svc_chef_mutenka",
     "name": "シェフの無添つくりおき",
     "display_name": "シェフの無添つくりおき",
@@ -1976,7 +2024,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-15T03:01:51.317155"
+    "created_at": "2026-08-16T10:06:13.903185"
   },
   {
     "id": "svc_fitfood_home",
@@ -1998,7 +2046,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-15T03:01:51.317160"
+    "created_at": "2026-08-16T10:06:13.903192"
   },
   {
     "id": "svc_shokurakuzen",
@@ -2021,7 +2069,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-15T03:01:51.317162"
+    "created_at": "2026-08-16T10:06:13.903194"
   },
   {
     "id": "svc_medical_food",
@@ -2043,6 +2091,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-15T03:01:51.317164"
+    "created_at": "2026-08-16T10:06:13.903196"
   }
 ]
