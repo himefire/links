@@ -2023,10 +2023,10 @@
       "いろいろなおかずを手軽に楽しめる",
       "忙しい日でも食生活を整えやすい"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kbox/cabinet/12151601/p-4651205658-01.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-16T17:24:45.908Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/kbox/cabinet/12151601/p-4651205658-01.jpg?_ex=600x600"
+    "created_at": "2026-08-16T17:24:45.908Z"
   },
   {
     "id": "prod_058",
@@ -2047,10 +2047,58 @@
       "ブックスタンドで手を空けながら読書できる",
       "気になった一文を残して振り返りやすくなる"
     ],
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dandystore/cabinet/imgrc0121498138.jpg?_ex=600x600",
     "pinned": false,
     "video_count": 0,
-    "created_at": "2026-08-16T17:51:24.079Z",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dandystore/cabinet/imgrc0121498138.jpg?_ex=600x600"
+    "created_at": "2026-08-16T17:51:24.079Z"
+  },
+  {
+    "id": "prod_059",
+    "name": "TENQS (テンクス)WORK RECOVERY スポーツドリンク",
+    "short_name": "TENQS (テンクス)WORK RECOVERY スポーツドリンク",
+    "price": 2690,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B08CUSRv2",
+      "rakuten": "https://a.r10.to/hPDs3m"
+    },
+    "pain_points": [
+      "暑い日に甘い飲み物ばかり選んでしまう",
+      "毎日の飲み物代が積み重なってしまう",
+      "家で飲むお茶を毎回用意するのが面倒"
+    ],
+    "benefits": [
+      "甘さを控えながら電解質を取り入れやすい",
+      "麦茶をまとめて作れて日常使いしやすい",
+      "場面に合わせて飲み物を選び分けやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-17T17:27:54.188Z"
+  },
+  {
+    "id": "prod_060",
+    "name": "中学 英単語 暗記カード：あの「中学 英単語 2100」が、暗記＋ミニテストつき…",
+    "short_name": "中学 英単語 暗記カード：あの「中学 英単語 2100」が、暗記＋ミニテストつき...",
+    "price": 1298,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B0htwaMKZ",
+      "rakuten": "https://a.r10.to/hPibLX"
+    },
+    "pain_points": [
+      "覚えた単語を翌日に忘れてしまう",
+      "紙の単語帳だと復習箇所を管理しにくい",
+      "毎日の英単語学習が単調で続きにくい"
+    ],
+    "benefits": [
+      "覚えたい単語を繰り返し確認しやすい",
+      "苦手な単語をまとめて復習しやすい",
+      "スキマ時間でも英単語学習を続けやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-17T17:55:10.460Z"
   },
   {
     "id": "svc_chef_mutenka",
@@ -2073,7 +2121,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-17T02:53:15.513607"
+    "created_at": "2026-08-18T03:20:50.111988"
   },
   {
     "id": "svc_fitfood_home",
@@ -2095,7 +2143,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-17T02:53:15.513613"
+    "created_at": "2026-08-18T03:20:50.111996"
   },
   {
     "id": "svc_shokurakuzen",
@@ -2118,7 +2166,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-17T02:53:15.513615"
+    "created_at": "2026-08-18T03:20:50.111998"
   },
   {
     "id": "svc_medical_food",
@@ -2140,6 +2188,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-17T02:53:15.513616"
+    "created_at": "2026-08-18T03:20:50.111999"
   }
 ]
