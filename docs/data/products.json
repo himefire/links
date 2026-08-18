@@ -2096,14 +2096,62 @@
       "苦手な単語をまとめて復習しやすい",
       "スキマ時間でも英単語学習を続けやすい"
     ],
-    "pinned": false,
-    "video_count": 0,
-    "created_at": "2026-08-17T17:55:10.460Z",
-    "price_checked_at": "2026-08-17",
     "rating": 5,
     "review_count": 1,
     "rating_source": "楽天市場",
-    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bookfan/cabinet/01184/bk4424313417.jpg?_ex=600x600"
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/bookfan/cabinet/01184/bk4424313417.jpg?_ex=600x600",
+    "price_checked_at": "2026-08-17",
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-17T17:55:10.460Z"
+  },
+  {
+    "id": "prod_061",
+    "name": "カモミール 30包 ティーバッグ 無添加 ノンカフェイン 茶癒",
+    "short_name": "カモミール 30包 ティーバッグ 無添加 ノンカフェイン 茶癒",
+    "price": 1487,
+    "harm_category": "health",
+    "links": {
+      "amazon": "https://link.amazon/B09DIzoda",
+      "rakuten": "https://a.r10.to/hYW279"
+    },
+    "pain_points": [
+      "暑い日に冷たい飲み物ばかり選んでしまう",
+      "午後もカフェラテを飲む習慣がやめにくい",
+      "夜までカフェインを摂りがちになる"
+    ],
+    "benefits": [
+      "ノンカフェインの飲み物へ自然に置き換えやすい",
+      "温かい飲み物を手軽に生活へ取り入れられる",
+      "常温の水を持ち歩く習慣を作りやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-18T17:25:29.435Z"
+  },
+  {
+    "id": "prod_062",
+    "name": "タスク管理ノート A5 ToDoリスト 128ページ (60日分)",
+    "short_name": "タスク管理ノート A5 ToDoリスト 128ページ (60日分)",
+    "price": 990,
+    "harm_category": "ambition",
+    "links": {
+      "amazon": "https://link.amazon/B03BhPIro",
+      "rakuten": "https://a.r10.to/hgV3nK"
+    },
+    "pain_points": [
+      "Todoを書きすぎて優先順位が見えない",
+      "未完了タスクが増えて焦ってしまう",
+      "頭の中がタスクで埋まって休めない"
+    ],
+    "benefits": [
+      "タスクを紙にまとめて頭の中を整理しやすい",
+      "重要な予定と細かな用事を見分けやすい",
+      "終わったタスクを振り返りやすい"
+    ],
+    "pinned": false,
+    "video_count": 0,
+    "created_at": "2026-08-18T17:51:26.818Z"
   },
   {
     "id": "svc_chef_mutenka",
@@ -2126,7 +2174,7 @@
     "pick_reason": "「時短」と「無添加」は普通トレードオフ。その両取りができる数少ない選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-18T03:20:50.111988"
+    "created_at": "2026-08-19T02:51:27.742295"
   },
   {
     "id": "svc_fitfood_home",
@@ -2148,7 +2196,7 @@
     "pick_reason": "無添加は「こだわると自炊地獄」になりがち。冷凍で仕組み化できるのが現実的",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-18T03:20:50.111996"
+    "created_at": "2026-08-19T02:51:27.742302"
   },
   {
     "id": "svc_shokurakuzen",
@@ -2171,7 +2219,7 @@
     "pick_reason": "介護食は情報も商品も少ない空白地帯。必要な人には唯一級の選択肢",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-18T03:20:50.111998"
+    "created_at": "2026-08-19T02:51:27.742304"
   },
   {
     "id": "svc_medical_food",
@@ -2193,6 +2241,6 @@
     "pick_reason": "制限食は「自分で設計しない」のが継続のコツ。実績数は信頼の根拠になる",
     "service_genre": "宅食",
     "pinned": true,
-    "created_at": "2026-08-18T03:20:50.111999"
+    "created_at": "2026-08-19T02:51:27.742306"
   }
 ]
